@@ -4,10 +4,12 @@
 }
 
 body {
-  padding: 50px;
-  font: 14px "Proxima", Helvetica, Arial, sans-serif;
+  font: 24px "Proxima", Helvetica, Arial, sans-serif;
+  color: #555964;
 }
 
-a {
-  color: #00B7FF;
+
+div:last-child {
+  color: #555964;
+  padding-top: 40px;
 }
