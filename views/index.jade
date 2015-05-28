@@ -1,8 +1,9 @@
 extends layout
 
 block content
-	div(style="display:flex;justify-content:center;align-items:center;")
-		div
+	div(style="display: table; postion: static; min-height: 100%; height: 100%; width: 100%;")
+		div(style="display:table-cell; vertical-align:middle;text-align:center;")
 			div(style="text-align: center;")
 				img(src="images/logo.svg", alt="")
-			div(style="text-align: center") Coming Soon
+				br
+				label Coming Soon
